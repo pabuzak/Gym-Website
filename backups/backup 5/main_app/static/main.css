@@ -1,0 +1,358 @@
+/** HTML and body code to remove line on the right side of the page **/
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+/** Body background colour, text color and margin top **/
+body {
+    background: rgb(34, 10, 10);
+    color: #333333;
+    margin-top: 5rem;
+}
+
+/** Text color **/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #444444;
+}
+
+/** Background colour for navigation bar **/
+.bg-steel {
+    background-color: #a73737;
+
+}
+
+/** Navigation bar text colour, fonts + uppercase letters and padding **/
+.site-header .navbar-nav .nav-link {
+    color: #fffbfa;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 40px;
+    font-weight: 650;
+    font-size: 16px;
+    text-transform: uppercase !important;
+
+}
+
+/** Navigation hover colour **/
+.site-header .navbar-nav .nav-link:hover {
+    color: #fdc7c7;
+
+}
+
+/** Font weight of navigation bar **/
+.site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+}
+
+/** Content section of website background colour, padding, border, margin, fonts and colours**/
+.content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase !important;
+    font-weight: 650;
+    font-size: 16px;
+    color: #333333;
+}
+
+/** Content section font size of h3 **/
+.content-section h3 {
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+/** Content section button colour **/
+.content-section a {
+    text-decoration: none;
+    color: #333333;
+}
+
+/** Content section button hover colour **/
+.content-section a:hover {
+    color: #a73737
+}
+
+/** Forum text **/
+.text-muted {
+    color: #333333 !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase !important;
+    font-weight: 700;
+}
+
+/** Forum text button **/
+.ml-2 {
+    color: #a73737 !important;
+    text-decoration: none !important;
+}
+
+/** Forum button **/
+.btn-sm {
+    background-color: transparent;
+    color: #fffbfa;
+}
+
+/** Forum button hover **/
+.btn-danger:hover {
+    color: #fffbfa;
+}
+
+/** Page button hover color **/
+a.btn.btn-secondary.btn-sm.mt-1.mb-1:hover {
+    color: #fffbfa !important;
+    background-color: #333333 !important;
+}
+
+/** Forum text hover **/
+.ml-2:hover {
+    color: #fffbfa !important;
+}
+
+/** Second button color **/
+.btn-secondary {
+    color: #333333 !important;
+}
+
+/** Article title colour **/
+.article-title {
+    color: #333333;
+}
+
+/** Article title hover colour **/
+a.article-title:hover {
+    color: #a73737;
+    text-decoration: none;
+}
+
+/** Article content white space **/
+.article-content {
+    white-space: pre-line;
+}
+
+/** Article image height, width and margin **/
+.article-img {
+    height: 65px;
+    width: 65px;
+    margin-right: 16px;
+}
+
+/** Article padding, margin and border bottom **/
+.article-metadata {
+    padding-bottom: 1px;
+    margin-bottom: 4;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+/** Article button hover colour **/
+.article-metadata a:hover {
+    color: #a73737;
+    text-decoration: none;
+}
+
+/** Acticle width, height and vertical align **/
+.article-svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+/** Account image height, width and margin **/
+.account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+}
+
+/** Account heading font size **/
+.account-heading {
+    font-size: 2.5rem;
+}
+
+/** Background image position, width, display, and height **/
+.background img {
+    position: relative;
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+/** HTML background colour  **/
+.html {
+    background: #393939;
+}
+
+/** Button colour **/
+.btn {
+    color: #a73737;
+}
+
+/** Button outline border colour and text colour **/
+.btn-outline-info {
+    border-color: #a73737 !important;
+}
+
+/** Button hover colour and background colour **/
+.btn:hover {
+    background-color: #a73737 !important;
+    color: #fffbfa;
+}
+
+/** Button info background-colour, text colour and border colour **/
+.btn-info {
+    background-color: transparent;
+    border-color: #a73737;
+    color: #fffbfa;
+}
+
+/** Button info border colour **/
+.btn.info:hover {
+    border-color: #a73737 !important;
+}
+
+/** Footer height, width, fonts, colour, padding, border radius and line height **/
+.footer {
+    height: auto;
+    width: 100vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase !important;
+    color: #fffbfa;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-size: 15px;
+    border-radius: 12px;
+    line-height: 24px;
+}
+
+/** Footer heading colour, fonts, text, letter-spacing and margin **/
+.footer h3 {
+    color: #fffbfa !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    font-size: 16px !important;
+    letter-spacing: 2px !important;
+    margin-top: 5px !important;
+    font-size: 20px !important;
+}
+
+/** Footer links hover colour **/
+.footer-links a:hover {
+    color: #a73737;
+}
+
+/** Footer paragraph font, font colour, font size and letter spacing **/
+.footer p {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13.5px;
+    letter-spacing: 1.25px;
+}
+
+/** Footer link font, font colour, font size and letter spacing **/
+.footer a {
+    color: rgb(189, 189, 189);
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+/** Footer hover colour for links **/
+.footer a:hover {
+    color: #e2e2df;
+    text-decoration: none;
+}
+
+/** Footer remove bullet points and text padding **/
+.footer-links {
+    list-style: none;
+    padding-left: 20px;
+}
+
+/** Footer links displayed as a block **/
+.footer-links li {
+    display: block;
+    margin: 10px;
+}
+
+/** Footer button text colour **/
+.footer-links a {
+    color: #fffbfa;
+}
+
+/** Footer button text hover colour **/
+.footer-links a:hover {
+    color: #a73737;
+}
+
+/** Footer links padding **/
+.links {
+    padding-left: 150px;
+}
+
+/** Background colour, text, and font **/
+.background {
+    color: #fffbfa;
+    text-transform: uppercase !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/** Information section colour, margin, and padding-top **/
+.information {
+    color: #e2e2df !important;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+/** Information section width, height and background-color **/
+.information.content-section {
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    float: left;
+
+}
+
+/** Information heading fonts **/
+.information h1 {
+    color: #fffbff !important;
+    text-transform: uppercase !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+
+/** Infomation heading(4) fonts **/
+.information h4 {
+    color: #fffbff !important;
+    text-transform: uppercase !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+}
+
+/** Information paragraph colour **/
+.information p {
+    color: #fffbfa !important;
+}
+
+/** Button text colour **/
+a.btn.btn-outline-info.mb-4{
+    color: #fffbfa;
+}
+
+/** Text colour **/
+small.text-muted{
+    color: #fffbfa !important;
+}

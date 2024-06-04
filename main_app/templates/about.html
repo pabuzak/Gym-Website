@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Title of website -->
+    <title>About</title>
+</head>
+<body>
+    <div class="background">
+        <!-- About page photo -->
+        <img class="aphoto" src="{{ url_for('static', filename='profile_pics/aboutphoto1.jpeg') }}" alt="aboutphoto">
+    </div>
+    <article>
+        <!-- About Information -->
+        <div class="information">
+            <!-- Extends to layout.html -->
+            {% extends "layout.html" %}
+            <!-- Override previous (child) templates -->
+            {% block content %}
+            <!-- Heading Bodybuilding -->
+            <h1>Bodybuilding & Workout Plan</h1>
+            <!-- Paragraph Bodybuilding -->
+            <p>Bodybuilding is different from powerlifting as it is judged on physical appearance rather then physical
+                strength.
+                If you're just starting out, it's really going to depend on your work schedule and hours that you can
+                train, but I would suggest to try and get in three days a week and split them every other day.
+                Start with basic exercises for each body part and do two exercises—3 sets of 8-12 reps for each part.
+                Ensure that you have good form on all the excerices for the following split to get maximum results:
+            </p>
+            <div class="background">
+                <!-- Heading Bodybuilding Plan -->
+                <h4>Beginner Bodybuilding Workout Plan</h4>
+                <!-- Bodybuilding plan Button -->
+                <a class="btn btn-info btn-outline-info mb-4"
+                    href="https://www.drworkout.fitness/3-day-beginner-full-body-workout-mass/">Learn More</a>
+            </div>
+            <!-- Heading Powerlifting -->
+            <h1>Powerlifting & Workout Plan</h1>
+            <!-- Paragraph Powerlifting -->
+            <p>Powerlifting is is all about your physical strength and trying to progress stronger in basic compound
+                lifts (squat, bench and deadlift). While it can have some carryover to building muscle,
+                powerlifting's main focus is one-rep strength in the big three.
+            </p>
+            <div class="background">
+                <!-- Heading Powerlifting Plan -->
+                <h4>Beginner Powerlifting Workout Plan</h4>
+                <!-- Powerlifting plan Button -->
+                <a class="btn btn-info btn-outline-info mb-4"
+                    href="https://liftvault.com/programs/powerlifting/beginner-powerlifting-programs/">Learn More</a>
+            </div>
+            <!-- Nutrtional Inforamtion Heading -->
+            <h1>Nutritional information</h1>
+            <!-- Nutrtional Information Paragraph -->
+            <p>Nutrition is the most important thing to start your journey in the gym. People have different goals and
+                therefore, this post will go through different
+                diet plans.
+            <!-- Bodybuilding Diet Heading  -->
+            <h4>Bodybuilding Diet</h4>
+            <!-- Bodybuilding Diet Paragraph -->
+            <p>First thing you need to ensure is how many calories you need for your goals. If you want to lose weight
+                and body fat you would want to go on caloric deficit meaning you would eat less then your maintanace
+                calories which can be found via calorie calculators online. You would want
+                to be in a caloric deficit if you are clasified as overweight or obese when beginning. If you want to
+                gain weight you would want to go on a caloric surplus meaning you would eat more then your maintance
+                calories. This would be helpful for people who are underweight and are
+                'hard gainers'. With people who are in the middle (aka skinny fat), there have been many cases where
+                going on a recomposition or slight surplus causes a huge increase in muscle mass and strength which can
+                be done by either eating at maintaince calories or 100-150 calories above maintance calories.
+            </p>
+            <div class="background">
+                <!-- Bodybuilding Meal Plan Heading -->
+                <h4>Beginner Bodybuilding Meal Plan</h4>
+                <!-- Bodybuilding Diet Button -->
+                <a class="btn btn-info btn-outline-info mb-4"
+                    href="https://www.healthline.com/nutrition/bodybuilding-meal-plan#benefits">Learn More</a>
+            </div>
+            <!-- Powerlifting Diet Heading -->
+            <h4>Powerlifting Diet</h4>
+            <!-- Powerlifting Diet Paragraph -->
+            <p>The powerlifting diet would be a bulking or a caloric surplus diet as you would want to gain as much
+                strength as possible. However, this must be done in a
+                well-planned way to not gain a lot of body fat all at once in the process not helping you at all in the
+                long run. It is very important to have the right amount
+                of carbohydrates, fats and espeically protein in your diet.
+            </p>
+            <div class="background">
+                <!-- Powerlifting Meal Plan Heading -->
+                <h4>Beginner Powerlifting Meal Plan</h4>
+                <!-- Powerlifting Meal Button -->
+                <a class="btn btn-info btn-outline-info mb-4" href="https://fitbod.me/blog/powerlifting-diet/">Learn
+                    More</a>
+            </div>
+            <!-- End of template -->
+            {% endblock content %}
+            </div>
+    </article>
+</body>
+
+</html>
